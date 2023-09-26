@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Portfolio Stephanie</string>
+    <string name="skills">skills</string>
+    <string name="Title">Title</string>
+    <string name="Desc">Desc</string>
+    <string name="desc">Desc</string>
+    <string name="overmijText">Hallo, \n\nIk ben Wesley van der Ploeg 26 jaar en woon in Lelystad. Ik studeer momenteel software development aan het ROC College in Almere buiten.
+    \n\nNa de huidige opleiding twijfel of ik nog HBO software engineering of een soort gelijk iets wil doen, Maar dat zijn dingen voor de toekomst. \n\nWat ik heb geleerd van het maken van deze app, Is dat protypes maken heel veel invloed heeft op het eindproduct. </string>
+</resources>

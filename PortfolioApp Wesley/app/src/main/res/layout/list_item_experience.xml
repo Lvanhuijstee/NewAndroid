@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ExpItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="426dp"
+        android:background="#32000000"
+        app:shapeAppearanceOverlay="@style/experienceStyle" />
+
+    <TextView
+        android:id="@+id/experienceItemText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Title"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ExpItemBackground"
+        app:layout_constraintEnd_toEndOf="@+id/ExpItemBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/experienceItemImage"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/experienceItemImage"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:background="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/ExpItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="@+id/ExpItemBackground"
+        app:layout_constraintTop_toTopOf="@+id/ExpItemBackground"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/testText"
+        android:layout_width="361dp"
+        android:layout_height="103dp"
+        android:text="@string/Desc"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ExpItemBackground"
+        app:layout_constraintEnd_toEndOf="@+id/ExpItemBackground"
+        app:layout_constraintStart_toStartOf="@+id/ExpItemBackground"
+        app:layout_constraintTop_toBottomOf="@+id/experienceItemText"
+        app:layout_constraintVertical_bias="0.191" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
